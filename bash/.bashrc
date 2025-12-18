@@ -16,4 +16,8 @@ if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
 
+# Activate fuzzy search
 eval "$(fzf --bash)"
+
+# Set colors :)
+PS1='\[\e[97m\]\u\[\e[0m\]@\[\e[38;5;220m\]\h\[\e[0m\]:\[\e[38;5;220m\]\w\[\e[0m\]\$ '
