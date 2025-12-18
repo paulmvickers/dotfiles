@@ -1,3 +1,4 @@
 epel-release
 fzf
 htop
+tar
