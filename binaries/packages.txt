@@ -2,3 +2,4 @@ epel-release
 fzf
 htop
 tar
+vim
